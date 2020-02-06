@@ -1,0 +1,73 @@
+squid,url,short_description
+squid:S00104,https://jira.sonarsource.com/browse/RSPEC-104,Files should not have too many lines
+squid:S00107,https://jira.sonarsource.com/browse/RSPEC-107,Methods should not have too many parameters
+squid:S00112,https://jira.sonarsource.com/browse/RSPEC-112,Generic exceptions should never be thrown
+squid:MethodCyclomaticComplexity,https://jira.sonarsource.com/browse/RSPEC-133,Methods should not be too complex
+squid:S106,https://jira.sonarsource.com/browse/RSPEC-106,Standard outputs should not be used directly to log anything
+squid:ClassVariableVisibilityCheck,https://jira.sonarsource.com/browse/RSPEC-1104,Class variable fields should not have public accessibility
+squid:ObjectFinalizeOverridenCheck,https://jira.sonarsource.com/browse/RSPEC-1113,The Object.finalize() method should not be overriden
+squid:S1118,https://jira.sonarsource.com/browse/RSPEC-1118,Utility classes should not have public constructors
+squid:RedundantThrowsDeclarationCheck,https://jira.sonarsource.com/browse/RSPEC-1130,Throws declarations should not be superfluous
+squid:S1133,https://jira.sonarsource.com/browse/RSPEC-1133,Deprecated code should be removed eventually
+squid:S1148,https://jira.sonarsource.com/browse/RSPEC-1148,Throwable.printStackTrace(...) should not be called
+squid:S1160,https://jira.sonarsource.com/browse/RSPEC-1160,Public methods should throw at most one checked exception
+squid:S1161,https://jira.sonarsource.com/browse/RSPEC-1161,@Override annotation should be used on any method overriding (since Java 5) or implementing (since Java 6) another one
+squid:S1163,https://jira.sonarsource.com/browse/RSPEC-1163,Exceptions should not be thrown in finally blocks
+squid:S1165,https://jira.sonarsource.com/browse/RSPEC-1165,Exception classes should be immutable
+squid:S1166,https://jira.sonarsource.com/browse/RSPEC-1166,Exception handlers should preserve the original exceptions
+squid:S1170,https://jira.sonarsource.com/browse/RSPEC-1170,"Public constants and fields initialized at declaration should be ""static final"" rather than merely ""final"""
+squid:S1181,https://jira.sonarsource.com/browse/RSPEC-1181,Throwable and Error should not be caught
+squid:S1182,https://jira.sonarsource.com/browse/RSPEC-1182,"Classes that override ""clone"" should be ""Cloneable"" and call ""super.clone()"""
+squid:S1185,https://jira.sonarsource.com/browse/RSPEC-1185,Overriding methods should do more than simply call the same method in the super class
+squid:S1188,https://jira.sonarsource.com/browse/RSPEC-1188,Lambdas and anonymous classes should not have too many lines
+squid:S1192,https://jira.sonarsource.com/browse/RSPEC-1192,String literals should not be duplicated
+squid:S1193,https://jira.sonarsource.com/browse/RSPEC-1193,"Exception types should not be tested using ""instanceof"" in catch blocks"
+squid:S1194,https://jira.sonarsource.com/browse/RSPEC-1194,"""java.lang.Error"" should not be extended"
+squid:S1199,https://jira.sonarsource.com/browse/RSPEC-1199,Nested code blocks should not be used
+squid:S1210,https://jira.sonarsource.com/browse/RSPEC-1210,"""equals(Object obj)"" should be overridden along with the ""compareTo(T obj)"" method"
+squid:S1214,https://jira.sonarsource.com/browse/RSPEC-1214,Constants should not be defined in interfaces
+squid:S1217,https://jira.sonarsource.com/browse/RSPEC-1217,Thread.run() and Runnable.run() should not be called directly
+squid:S1220,https://jira.sonarsource.com/browse/RSPEC-1220,The default unnamed package should not be used
+squid:S1221,https://jira.sonarsource.com/browse/RSPEC-1221,"Methods should not be named ""hashcode"" or ""equal"""
+squid:S1226,https://jira.sonarsource.com/browse/RSPEC-1226,"Method parameters,caught exceptions and foreach variables should not be reassigned"
+squid:S1301,https://jira.sonarsource.com/browse/RSPEC-1301,"""switch"" statements should have at least 3 ""case"" clauses"
+squid:ClassCyclomaticComplexity,https://jira.sonarsource.com/browse/RSPEC-1311,Classes should not be too complex
+squid:S1313,https://jira.sonarsource.com/browse/RSPEC-1313,IP addresses should not be hardcoded
+squid:S1444,https://jira.sonarsource.com/browse/RSPEC-1444,"""public static"" fields should be constant"
+squid:S1488,https://jira.sonarsource.com/browse/RSPEC-1488,Local Variables should not be declared and then immediately returned or thrown
+javascript:Eval,https://jira.sonarsource.com/browse/RSPEC-1523,Make sure that this dynamic injection or execution of code is safe.
+squid:S1598,https://jira.sonarsource.com/browse/RSPEC-1598,Package declaration should match source file directory
+squid:S1609,https://jira.sonarsource.com/browse/RSPEC-1609,@FunctionalInterface annotation should be used to flag Single Abstract Method interfaces
+squid:S1610,https://jira.sonarsource.com/browse/RSPEC-1610,Abstract classes without fields should be converted to interfaces
+squid:S1695,https://jira.sonarsource.com/browse/RSPEC-1695,NullPointerException should not be explicitly thrown
+squid:S1696,https://jira.sonarsource.com/browse/RSPEC-1696,NullPointerException should not be caught
+squid:S1848,https://jira.sonarsource.com/browse/RSPEC-1848,Objects should not be created to be dropped immediately without being used
+squid:S1860,https://jira.sonarsource.com/browse/RSPEC-1860,Synchronization should not be based on Strings or boxed primitives
+squid:S1862,https://jira.sonarsource.com/browse/RSPEC-1862,"Related ""if/else if"" statements should not have the same condition"
+squid:S1872,https://jira.sonarsource.com/browse/RSPEC-1872,Classes should not be compared by name
+squid:S1873,https://jira.sonarsource.com/browse/RSPEC-1873,"""static final"" arrays should be ""private"""
+squid:S2059,https://jira.sonarsource.com/browse/RSPEC-2059,"Serializable inner classes of ""Serializable"" classes should be static"
+squid:S2062,https://jira.sonarsource.com/browse/RSPEC-2062,readResolve methods should be inheritable
+squid:S2068,https://jira.sonarsource.com/browse/RSPEC-2068,Credentials should not be hard-coded
+squid:S2077,https://jira.sonarsource.com/browse/RSPEC-2077,Values passed to SQL commands should be sanitized
+squid:S2095,https://jira.sonarsource.com/browse/RSPEC-2095,Resources should be closed
+squid:S2134,https://jira.sonarsource.com/browse/RSPEC-2134,"Classes extending java.lang.Thread should override the ""run"" method"
+squid:S2142,https://jira.sonarsource.com/browse/RSPEC-2142,"""InterruptedException"" should not be ignored"
+squid:S2147,https://jira.sonarsource.com/browse/RSPEC-2147,Catches should be combined
+squid:S2157,https://jira.sonarsource.com/browse/RSPEC-2157,"""Cloneables"" should implement ""clone"""
+squid:S2166,https://jira.sonarsource.com/browse/RSPEC-2166,"Classes named like ""Exception"" should extend ""Exception"" or a subclass"
+squid:S2221,https://jira.sonarsource.com/browse/RSPEC-2221,"""Exception"" should not be caught when not required by called methods"
+squid:S2222,https://jira.sonarsource.com/browse/RSPEC-2222,Locks should be released
+squid:S2236,https://jira.sonarsource.com/browse/RSPEC-2236,"Methods ""wait(...)"", ""notify()"" and ""notifyAll()"" should never be called on Thread instances"
+squid:S2273,https://jira.sonarsource.com/browse/RSPEC-2273,"""wait(...)"", ""notify()"" and ""notifyAll()"" methods should only be called when a lock is obviously held on an object"
+squid:S2276,https://jira.sonarsource.com/browse/RSPEC-2276,"""wait(...)"" should be used instead of ""Thread.sleep(...)"" when a lock is held"
+squid:S2386,https://jira.sonarsource.com/browse/RSPEC-2386,"Mutable fields should not be ""public static"""
+squid:S2438,https://jira.sonarsource.com/browse/RSPEC-2438,"Threads should not be used where ""Runnables"" are expected"
+squid:S2638,https://jira.sonarsource.com/browse/RSPEC-2638,Method overrides should not change contracts
+squid:S2693,https://jira.sonarsource.com/browse/RSPEC-2693,Threads should not be started in constructors
+squid:S2696,https://jira.sonarsource.com/browse/RSPEC-2696,"Instance methods should not write to ""static"" fields"
+squid:S2737,https://jira.sonarsource.com/browse/RSPEC-2737,"""catch"" clauses should do more than rethrow"
+squid:S2885,https://jira.sonarsource.com/browse/RSPEC-2885,"""Calendars"" and ""DateFormats"" should not be static"
+squid:S2975,https://jira.sonarsource.com/browse/RSPEC-2975,clone should not be overridden
+squid:S3398,https://jira.sonarsource.com/browse/RSPEC-3398,private methods called only by inner classes should be moved to those classes
+squid:S3422,https://jira.sonarsource.com/browse/RSPEC-3422,"Dependencies should not have ""system"" scope"
