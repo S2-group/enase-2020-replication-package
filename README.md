@@ -1,4 +1,4 @@
-# ATDx: Building an Architectural Technical Debt Index, replication Package
+# ATDx: Building an Architectural Technical Debt Index, companion page
 
 This repository is a companion page for the paper _"ATDx: Building an Architectural Technical Debt Index"_.
 
