@@ -44,3 +44,19 @@ This reposisory is structured as follows:
             ├── filter_ar_values.py         Filter architectural rule values from mined rule violation values 
             ├── mine_repo_metadata.py       Mine initial repository metadata 
             └── mine_rule_values.py         Mine rule violation values 
+
+How to cite this repository
+---------------
+If the contents of this repository are helping your research, consider to cite it as follows, thanks!
+
+```
+@inproceedings{ENASE_2020,
+  url = { https://robertoverdecchia.github.io/papers/ENASE_2020.pdf },
+  year = { 2020 },
+  publisher = { SciTePress },
+  pages = { 531--539 },
+  booktitle = { Proceedings of the 15th International Conference on Evaluation of Novel Approaches to Software Engineering, {ENASE} 2020, Prague, Czech Republic },
+  title = { ATDx: Building an Architectural Technical Debt Index },
+  author = { Roberto Verdecchia and Patricia Lago and Ivano Malavolta and Ipek Ozkaya },
+}
+```
